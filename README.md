@@ -11,24 +11,15 @@ Professional tool for testing directory access controls and identifying path tra
 
 > **An advanced security tool designed to test web application directory structures, identify misconfigurations, and bypass access controls through intelligent fuzzing techniques.**
 
-📋 Table of Contents
+## 📋 Table of Contents
 Features
 
-Installation
-
-Configuration
-
-Usage
-
-Methodology
-
-Reports
-
-Legal Disclaimer
-
-Contributing
-
-License
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Usage](#-usage)
+- [Reports](#-reports)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 🚀 Features
 Advanced Bypass Techniques
