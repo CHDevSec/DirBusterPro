@@ -56,9 +56,16 @@ python3 --version
 pip3 --version
 ```
 
+### Clone the repository
+
+```bash
 # Clone the repository
-git clone https://github.com/chdevsec/directory-bypass-tool.git
-cd directory-bypass-tool
+git clone https://github.com/chdevsec/DirBusterPro.git
+cd professional-web-recon
+
+# Install Python dependencies
+pip3 install -r requirements.txt
+```
 
 # Install Python dependencies
 pip3 install -r requirements.txt
