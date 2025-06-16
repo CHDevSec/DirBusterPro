@@ -66,12 +66,12 @@ urllib3>=1.26.0
 ## 🎯 Basic Usage
 
 ```
-python3 dirbypasspro.py <TARGET_URL> <WORDLIST> [OPTIONS]
+python3 DirBusterPro.py <TARGET_URL> <WORDLIST> [OPTIONS]
 ```
 
 ## Example Scan
 ```
-python3 dirbypasspro.py http://example.com/admin paths.txt -t 30 -o report.html
+python3 DirBusterPro.py http://example.com/admin paths.txt -t 30 -o report.html
 ```
 
 ## ⚙️ Advanced Options
@@ -129,17 +129,17 @@ time,method,payload,url,status,size,bypass
 
 ### Example 1: Basic Scan
 ```
-python3 dirbypasspro.py http://vuln-site.com/private common_paths.txt
+python3 DirBusterPro.py http://vuln-site.com/private common_paths.txt
 ```
 
 ### Example 2: With Proxy
 ```
-python3 dirbypasspro.py http://intranet/admin paths.txt --proxy socks5://127.0.0.1:9050
+python3 DirBusterPro.py http://intranet/admin paths.txt --proxy socks5://127.0.0.1:9050
 ```
 
 ### Example 3: Full Audit
 ```
-python3 dirbypasspro.py https://secure.com/panel admin_paths.txt \
+python3 DirBusterPro.py https://secure.com/panel admin_paths.txt \
   -t 50 \
   --auth admin:Password123 \
   --ignore-ssl \
