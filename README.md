@@ -34,3 +34,101 @@
 /admin        → /admin%20
 /restricted   → /restricted//
 private      → /private%00
+```
+
+## 📊 Output Formats
+# Supported Formats
+- HTML (visual report)
+- JSON (machine readable)
+- CSV (spreadsheet compatible)
+
+
+## 🛠️ Installation
+### Prerequisites
+```
+# Verify Python version
+python3 --version  # Requires 3.7+
+```
+
+## Installation Steps
+# Clone repository
+git clone https://github.com/caio-henrique/dirbypasspro.git
+cd dirbypasspro
+
+# Install dependencies
+pip install -r requirements.txt
+
+### Requirements
+requests>=2.25.1
+urllib3>=1.26.0
+
+
+## 🎯 Basic Usage
+
+```
+python3 dirbypasspro.py <TARGET_URL> <WORDLIST> [OPTIONS]
+```
+
+## Example Scan
+```
+python3 dirbypasspro.py http://example.com/admin paths.txt -t 30 -o report.html
+```
+
+## ⚙️ Advanced Options
+```
+Option	Description	Default
+-t	Threads count	20
+-o	Output file	None
+--proxy	Proxy URL	None
+--auth	HTTP Basic Auth (user:pass)	None
+--timeout	Request timeout	10
+-v	Verbose mode	False
+```
+
+## 🔧 Bypass Techniques
+### Path Variations
+```
+[
+    "/admin",             # Original
+    "/admin/",            # Trailing slash
+    "/admin//",           # Double slash
+    "/admin%20",          # URL encoded space
+    "/admin%00",          # Null byte
+    "/admin..;/",         # Path traversal
+    "/admin~1",           # Short filename
+    "/.%2fadmin"          # Dot slash
+]
+```
+
+### Header Injection
+```
+{
+    "X-Original-URL": "/admin",
+    "X-Rewrite-URL": "/admin",
+    "X-Forwarded-Host": "localhost",
+    "X-Custom-IP-Authorization": "127.0.0.1"
+}
+```
+
+## 📊 Report Samples
+### **HTML Report Preview**
+
+<div class="vulnerability">
+  <h3>Bypass Found!</h3>
+  <p><strong>Payload:</strong> /admin%2f%2e%2e</p>
+  <p><strong>Status:</strong> 200 (OK)</p>
+</div>
+
+### CSV Output
+```
+time,method,payload,url,status,size,bypass
+2023-01-01T12:00:00,GET,/admin%00,http://test.com/admin%00,200,1245,True
+```
+
+## 💡 Usage Examples
+
+### Example 1: Basic Scan
+
+
+
+
