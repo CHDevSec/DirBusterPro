@@ -7,10 +7,6 @@
 
 > **Professional tool for testing directory traversal bypasses and access control vulnerabilities**
 
-<p align="center">
-  <img src="https://i.imgur.com/JKvQ8aP.png" alt="DirBypassPro Banner" width="70%">
-</p>
-
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Installation](#-installation)
