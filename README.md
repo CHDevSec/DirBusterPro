@@ -52,8 +52,8 @@ python3 --version  # Requires 3.7+
 
 ## Installation Steps
 # Clone repository
-git clone https://github.com/caio-henrique/dirbypasspro.git
-cd dirbypasspro
+git clone https://github.com/caio-henrique/DirBusterPro.git
+cd DirBusterPro
 
 # Install dependencies
 pip install -r requirements.txt
@@ -128,7 +128,52 @@ time,method,payload,url,status,size,bypass
 ## 💡 Usage Examples
 
 ### Example 1: Basic Scan
+```
+python3 dirbypasspro.py http://vuln-site.com/private common_paths.txt
+```
 
+### Example 2: With Proxy
+```
+python3 dirbypasspro.py http://intranet/admin paths.txt --proxy socks5://127.0.0.1:9050
+```
 
+### Example 3: Full Audit
+```
+python3 dirbypasspro.py https://secure.com/panel admin_paths.txt \
+  -t 50 \
+  --auth admin:Password123 \
+  --ignore-ssl \
+  -o full_audit.html
+```
 
+## ⚠️ Legal Disclaimer
+
+This tool was developed for educational purposes and authorized security testing. The use of this tool is entirely the user's responsibility. Make sure you have explicit authorization before testing any system.
+
+### Responsible Use
+
+- ✅ Test only on your own systems or with explicit authorization
+- ✅ Respect the terms of service of the APIs used
+- ✅ Use rate limiting to avoid server overload
+- ❌ Do not use for malicious or illegal activities
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+### 🔒 Developed by [CHDEVSEC](https://github.com/chdevsec) | Pentester Caio
+
+**⭐ If this project was useful to you, consider giving it a star!**
+
+[![GitHub followers](https://img.shields.io/github/followers/chdevsec.svg?style=social&label=Follow)](https://github.com/chdevsec)
+
+</div>
+
+## 📚 Tags and Keywords
+
+`pentest` `reconnaissance` `subdomain-enumeration` `vulnerability-scanner` `bug-bounty` `cybersecurity` `web-security` `ethical-hacking` `security-testing` `python` `automation` `google-dorking` `dns-enumeration` `web-fuzzing` `security-audit` `information-gathering` `osint` `red-team` `penetration-testing` `security-tools` `recon` `subdomain-discovery` `web-reconnaissance` `pentesting-tools` `security-scanner` `vulnerability-assessment` `web-application-security` `subdomain-takeover` `directory-bruteforce` `sensitive-file-detection`
 
