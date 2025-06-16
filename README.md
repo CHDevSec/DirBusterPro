@@ -1,4 +1,4 @@
-🔐 Directory Bypass Tool - Advanced Path Fuzzer & Access Tester
+# 🔐 Directory Bypass Tool - Advanced Path Fuzzer & Access Tester
 https://img.shields.io/badge/python-3.7%252B-blue.svg
 https://img.shields.io/badge/license-MIT-green.svg
 https://img.shields.io/github/issues/chdevsec/directory-bypass-tool.svg
