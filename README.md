@@ -1,8 +1,11 @@
 # 🔐 Directory Bypass Tool - Advanced Path Fuzzer & Access Tester
-https://img.shields.io/badge/python-3.7%252B-blue.svg
-https://img.shields.io/badge/license-MIT-green.svg
-https://img.shields.io/github/issues/chdevsec/directory-bypass-tool.svg
-https://img.shields.io/badge/Maintained%253F-yes-green.svg
+
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/chdevsec/professional-web-recon.svg)](https://github.com/chdevsec/professional-web-recon/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/chdevsec/professional-web-recon.svg)](https://github.com/chdevsec/professional-web-recon/stargazers)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/chdevsec/professional-web-recon/graphs/commit-activity)
+
 
 Professional tool for testing directory access controls and identifying path traversal vulnerabilities
 
