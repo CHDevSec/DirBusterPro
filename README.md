@@ -23,26 +23,26 @@ Features
 
 🚀 Features
 ### Advanced Bypass Techniques
-- **Multiple encoding methods: URL encoding, double encoding, Unicode encoding
-- **Path normalization tests: Relative path traversal (../), absolute path testing
-- **Case variation: Mixed case, lowercase, uppercase paths
-- **Special character injection: Null bytes, special delimiters
+- **Multiple encoding methods**: URL encoding, double encoding, Unicode encoding
+- **Path normalization tests**: Relative path traversal (../), absolute path testing
+- **Case variation**: Mixed case, lowercase, uppercase paths
+- **Special character injection**: Null bytes, special delimiters
 
 ### Comprehensive Testing
-- **Admin interface discovery: Common administrative paths
-- **Sensitive file detection: Configuration files, backups, logs
-- **Authentication bypass: Testing unprotected directories
-- **Technology-specific tests: Payloads tailored for different platforms
+- **Admin interface discovery**: Common administrative paths
+- **Sensitive file detection**: Configuration files, backups, logs
+- **Authentication bypass**: Testing unprotected directories
+- **Technology-specific tests**: Payloads tailored for different platforms
 
 ### Intelligent Detection
-- **Response analysis: Status code, content length, and content analysis
-- **False positive reduction: Smart filtering of irrelevant responses
-- **Vulnerability signatures: Pattern matching for common vulnerabilities
+- **Response analysis**: Status code, content length, and content analysis
+- **False positive reduction**: Smart filtering of irrelevant responses
+- **Vulnerability signatures**: Pattern matching for common vulnerabilities
 
 ### Performance Optimized
-- **Multithreaded execution: Fast scanning with configurable threads
-- **Session persistence: Maintains cookies and headers between requests
-- **Rate limiting: Respectful scanning with configurable delays
+- **Multithreaded execution**: Fast scanning with configurable threads
+- **Session persistence**: Maintains cookies and headers between requests
+- **Rate limiting**: Respectful scanning with configurable delays
 
 ## 🛠️ Installation
 
