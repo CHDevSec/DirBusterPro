@@ -9,7 +9,7 @@
 
 Professional tool for testing directory access controls and identifying path traversal vulnerabilities
 
-An advanced security tool designed to test web application directory structures, identify misconfigurations, and bypass access controls through intelligent fuzzing techniques.
+> **An advanced security tool designed to test web application directory structures, identify misconfigurations, and bypass access controls through intelligent fuzzing techniques.**
 
 📋 Table of Contents
 Features
