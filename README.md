@@ -22,48 +22,40 @@ Features
 - [License](#-license)
 
 🚀 Features
-Advanced Bypass Techniques
-Multiple encoding methods: URL encoding, double encoding, Unicode encoding
+### Advanced Bypass Techniques
+- **Multiple encoding methods: URL encoding, double encoding, Unicode encoding
+- **Path normalization tests: Relative path traversal (../), absolute path testing
+- **Case variation: Mixed case, lowercase, uppercase paths
+- **Special character injection: Null bytes, special delimiters
 
-Path normalization tests: Relative path traversal (../), absolute path testing
+### Comprehensive Testing
+- **Admin interface discovery: Common administrative paths
+- **Sensitive file detection: Configuration files, backups, logs
+- **Authentication bypass: Testing unprotected directories
+- **Technology-specific tests: Payloads tailored for different platforms
 
-Case variation: Mixed case, lowercase, uppercase paths
+### Intelligent Detection
+- **Response analysis: Status code, content length, and content analysis
+- **False positive reduction: Smart filtering of irrelevant responses
+- **Vulnerability signatures: Pattern matching for common vulnerabilities
 
-Special character injection: Null bytes, special delimiters
+### Performance Optimized
+- **Multithreaded execution: Fast scanning with configurable threads
+- **Session persistence: Maintains cookies and headers between requests
+- **Rate limiting: Respectful scanning with configurable delays
 
-Comprehensive Testing
-Admin interface discovery: Common administrative paths
+## 🛠️ Installation
 
-Sensitive file detection: Configuration files, backups, logs
+### Prerequisites
 
-Authentication bypass: Testing unprotected directories
-
-Technology-specific tests: Payloads tailored for different platforms
-
-Intelligent Detection
-Response analysis: Status code, content length, and content analysis
-
-False positive reduction: Smart filtering of irrelevant responses
-
-Vulnerability signatures: Pattern matching for common vulnerabilities
-
-Performance Optimized
-Multithreaded execution: Fast scanning with configurable threads
-
-Session persistence: Maintains cookies and headers between requests
-
-Rate limiting: Respectful scanning with configurable delays
-
-🛠️ Installation
-Prerequisites
-bash
+```bash
 # Python 3.7 or higher
 python3 --version
 
 # Pip package manager
 pip3 --version
-Installation Steps
-bash
+```
+
 # Clone the repository
 git clone https://github.com/chdevsec/directory-bypass-tool.git
 cd directory-bypass-tool
